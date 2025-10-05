@@ -1,4 +1,4 @@
-# Bank-Churn-Analysis
+# Bank-Churn-Analysis 🏦📉
 
 Project Overview
 

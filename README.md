@@ -1,6 +1,6 @@
-# Bank-Churn-Analysis 🏦📉
+# 🏦📉Bank-Churn-Analysis
 
-Project Overview
+###💡Project Overview
 
 This Power BI project explores customer churn within the banking industry. By analyzing historical customer data, this project aims to identify key factors influencing churn and provide insights that could help banks improve customer retention and satisfaction. Through this analysis, we can better understand the behaviors and characteristics of customers who are likely to leave the bank, allowing the business to take proactive steps to reduce churn.
 

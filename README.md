@@ -23,5 +23,5 @@ This Power BI project explores customer churn within the banking industry. By an
 
 Below is a screenshot of the Power BI dashboard for Bank Churn Analysis:
 
-<img width="918" height="518" alt="Churn_Analysis" src="https://github.com/user-attachments/assets/85843217-708a-482d-af93-50fda1253832" />
+<img width="918" height="518" alt="Churn_Analysis" src="https://github.com/komalb30/Bank-Churn-Analysis/blob/main/dashboard/Churn_Analysis.png" />
 

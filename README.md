@@ -71,46 +71,108 @@ Internal HR dataset provided as:
 | EstimatedSalary | Annual income                     |
 | Exited          | Churn flag (1 = Left, 0 = Stayed) |
 
+---
+
+## Tools and Technologies
+- Power BI – Data visualization & dashboard
+- Excel – Pre-validation and light data review
+
+---
+
+## Project Structure
+```
+Bank Customer Churn Analysis Dashboard/
+|
+├── data/                     # CSV Files
+│   ├── Bank Customer Churn Prediction.csv
+│   └── Cleaned_dataset.xlsx
+│
+├── Power BI Dashboard/       # Power BI dashboard file
+│   └── Bank Churn Analysis.pbix
+│
+├── Reports/                   
+│   └── Bank Churn Analysis Report.pdf
+├── README.md
+
+```
+
+---
+
+## Data Cleaning & Preparation
+The following cleaning steps were performed before dashboard creation:
+- Removed duplicate records using CustomerId.
+- Validated age ranges.
+- Standardized gender and country naming.
+- Verified balance and salary fields to eliminate negative values.
+- Converted categorical values to consistent formats.
+- Ensured churn column is binary.
+
+---
+
+## Exploratory Data Analysis (EDA)
+
+### Key observations:
+- Overall churn rate ≈ 20.4%
+- France has the most customers.
+- Highest customer volume:
+   - Age 31–40
+   - Credit score 601–700
+- Many customers hold:
+   - Only one product
+   - Zero balance accounts
+- Inactive customers show significantly higher churn.
+- Multiple-product customers are more loyal.
+- High churn observed in:
+   - Certain balance ranges (100k–200k)
+   - Mid-tier credit scores
+
+---
+
+## Research Questions & Key Findings
+
+### Q1: What is the churn rate?
+- ≈ 20.4%
+
+### Q2: Who churns most?
+- Inactive users
+- One-product customers
+- Certain high-balance customers
+
+### Q3: Does age impact churn?
+- Yes. Mid-aged customers drive most churn volume.
+
+### Q4: Does balance indicate loyalty?
+- No. High balance does not guarantee retention.
+
+### Q5: Does engagement reduce churn?
+- Strongly. Active members churn less.
+
+### Q6: Is product ownership relevant?
+- Yes. Customers with multiple products stay longer.
+
+## Dashboard
+The Power BI dashboard includes:
+- Churn Overview (Gauge)
+- Customers by:
+   - Gender
+   - Activity Status
+   - Geography
+   - Product Count
+- Churn by:
+   - Age Groups
+   - Credit Score
+   - Balance Buckets
+
+Dashboard file:  
+📁 <img width="918" height="518" alt="Churn_Analysis" src="https://github.com/komalb30/Bank-Churn-Analysis/blob/main/dashboard/Churn_Analysis.png" />
+
+---
+
+## Final Recommendations
+- High-balance customers
+- Inactive customers
+- Track campaign success metrics
+- Loyalty incentives for long-tenure users
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-# 🏦📉Bank-Churn-Analysis
-
-### 💡Project Overview
-
-This Power BI project explores customer churn within the banking industry. By analyzing historical customer data, this project aims to identify key factors influencing churn and provide insights that could help banks improve customer retention and satisfaction. Through this analysis, we can better understand the behaviors and characteristics of customers who are likely to leave the bank, allowing the business to take proactive steps to reduce churn.
-
-### 📊Features and Insights:
-  
-- Customer Segmentation: Analyze customers based on demographic data such as age, gender, and credit score groups. This helps identify specific customer segments that are more likely to churn.
-- Churn Rate Calculation: Identify and visualize the churn rate across different customer segments.
-- Visualizations: Interactive dashboards and charts to display churn rates, customer distribution, and factors affecting churn.
-
-### 🗂️Data Source: 
-- Dataset: The data used for this analysis is a synthetic dataset containing various attributes about bank customers, such as age, credit card status, active status, and more.
-
-### 🛠️Tools Used:
-
-- Power BI: For building interactive dashboards, data visualizations, and conducting data analysis.
-- DAX (Data Analysis Expressions): Used for creating calculated columns and measures to perform more complex analyses in Power BI.
-- Power Query: For transforming and cleaning data to ensure accurate analysis.
-
-## 🖼️Power BI Dashboard
-
-Below is a screenshot of the Power BI dashboard for Bank Churn Analysis:
-
-<img width="918" height="518" alt="Churn_Analysis" src="https://github.com/komalb30/Bank-Churn-Analysis/blob/main/dashboard/Churn_Analysis.png" />
 

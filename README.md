@@ -119,7 +119,6 @@ The following cleaning steps were performed before dashboard creation:
    - Credit score 601–700
 - Many customers hold:
    - Only one product
-   - Zero balance accounts
 - Inactive customers show significantly higher churn.
 - Multiple-product customers are more loyal.
 - High churn observed in:
@@ -149,6 +148,8 @@ The following cleaning steps were performed before dashboard creation:
 
 ### Q6: Is product ownership relevant?
 - Yes. Customers with multiple products stay longer.
+
+--- 
 
 ## Dashboard
 The Power BI dashboard includes:

@@ -1,10 +1,10 @@
-🏦 # Bank Customer Churn Analysis
+## 🏦 Bank Customer Churn Analysis
 
 _A data-driven analysis project focused on identifying customer churn drivers and building actionable retention strategies for a retail banking environment using Power BI._
 
 ---
 
-## 📌 Table of Contents
+## Table of Contents
 - [Overview](#overview)  
 - [Business Problem](#business-problem)  
 - [Dataset](#dataset)  

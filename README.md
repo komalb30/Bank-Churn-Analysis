@@ -90,8 +90,6 @@ Bank Customer Churn Analysis Dashboard/
 ├── Power BI Dashboard/       # Power BI dashboard file
 │   └── Bank Churn Analysis.pbix
 │
-├── Reports/                   
-│   └── Bank Churn Analysis Report.pdf
 ├── README.md
 
 ```
